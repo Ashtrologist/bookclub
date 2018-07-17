@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    router-view/>
+    <page-header></page-header>
+    <router-view/>
+    <!-- <page-footer></page-footer> -->
   </div>
 </template>
 
 <script>
+import PageHeader from './components/Header.vue'
+import PageFooter from './components/Footer.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    PageHeader,
+    PageFooter
+
+  }
 }
 </script>
 
@@ -17,6 +26,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
