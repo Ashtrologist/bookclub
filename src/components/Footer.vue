@@ -1,5 +1,5 @@
 <template>
-  <v-footer fixed height="auto" color="grey">
+  <v-footer relative height="auto" class="footer">
     <v-layout justify-center row wrap>
       <v-cardv-card-text class="hidden-sm-and-down">
         <v-btn dark flat to="HelloWorld">HOME</v-btn>
@@ -20,5 +20,8 @@ export default {
 </script>
 
 <style scoped>
+  .footer{
+    background-color: #191918
+  }
 
 </style>
