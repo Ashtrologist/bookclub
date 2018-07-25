@@ -96,11 +96,11 @@ export default {
   margin: 10px;
 }
 .books {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 100%;
-  /* padding: 20px;
+  padding: 20px;
   margin: 10px;
-  width: 20%; */
+  width: 20%;
 }
 .books:hover {
   padding:0;
