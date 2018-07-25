@@ -5,9 +5,12 @@ import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+// import VueLazyBackgroundImage from 'vue-lazy-background-images'
 
 Vue.use(Vuetify)
+
 Vue.config.productionTip = false
+// Vue.component('lazy-background', VueLazyBackgroundImage)
 
 /* eslint-disable no-new */
 new Vue({

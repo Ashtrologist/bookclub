@@ -1,7 +1,7 @@
 <template>
 
   <v-toolbar>
-    <v-toolbar-title>BOOKCLUBZ</v-toolbar-title>
+    <v-toolbar-title>DEAD POETS SOCIETY</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat to="HelloWorld">HOME</v-btn>
