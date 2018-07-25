@@ -13,17 +13,17 @@
     <h1> Why you should join the club </h1>
 
   <div class="flexbox">
-    <div class="books">
+    <div class="spacing">
       <img src="@/assets/meeting.jpg" height="300" width="400"/>
       <h3> Meet new and interesting people </h3>
     </div>
 
-    <div class="books">
+    <div class="spacing">
       <img src="@/assets/calendar.jpg" height="300" width="400"/>
       <h3> Weekly gatherings </h3>
     </div>
 
-    <div class="books">
+    <div class="spacing">
       <img src="@/assets/favoritebook.jpg" alt="Book" height="300" width="400"/>
       <h3> Share your favorite books </h3>
     </div>
@@ -57,6 +57,7 @@
     <div class="books">
       <img src="@/assets/book.jpg" class="image"/>
       <h2> The hate you give</h2>
+      <h4> By: Random Author </h4>
     </div>
 
     <div class="books">
@@ -90,15 +91,32 @@ export default {
   align-content: center;
   margin: 10px;
 }
-
-.books{
+.spacing{
   padding: 20px;
   margin: 10px;
 }
+.books {
+  box-sizing: border-box;
+  width: 100%;
+  /* padding: 20px;
+  margin: 10px;
+  width: 20%; */
+}
+.books:hover {
+  padding:0;
+  -webkit-transition: all width 0.05s;
+  -moz-transition: all width 0.05s;
+  -ms-transition: all width 0.05s;
+  -o-transition: all width 0.05s;
+  transition: all 0.05s;
+}
+
+.books:hover img {
+}
 
 .image{
-  height: 245px;
-  width: 170px;
+width: 200px;
+height: 300px;
 }
 
 </style>
