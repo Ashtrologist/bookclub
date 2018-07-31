@@ -9,64 +9,65 @@
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
   </div>
-  <div class="row">
-    <h1> Why you should join the club </h1>
 
-  <div class="flexbox">
-    <div class="spacing">
-      <img src="@/assets/meeting.jpg" height="300" width="400"/>
-      <h3> Meet new and interesting people </h3>
+  <h1> Why you should join the club </h1>
+  <v-layout justify-center align-center row fill-height>
+    <div class="flexbox">
+      <div class="spacing">
+        <img src="@/assets/meeting.jpg" height="300" width="400"/>
+        <h3> Meet new and interesting people </h3>
+      </div>
+
+      <div class="spacing">
+        <img src="@/assets/calendar.jpg" height="300" width="400"/>
+        <h3> Weekly gatherings </h3>
+      </div>
+
+      <div class="spacing">
+        <img src="@/assets/favoritebook.jpg" alt="Book" height="300" width="400"/>
+        <h3> Share your favorite books </h3>
+      </div>
     </div>
+  </v-layout>
 
-    <div class="spacing">
-      <img src="@/assets/calendar.jpg" height="300" width="400"/>
-      <h3> Weekly gatherings </h3>
-    </div>
-
-    <div class="spacing">
-      <img src="@/assets/favoritebook.jpg" alt="Book" height="300" width="400"/>
-      <h3> Share your favorite books </h3>
-    </div>
-
-  </div>
-
-  </div>
-
-  <div class="row">
-    <h1> Most popular books </h1>
-
-  <div class="flexbox">
+  <h1> Most popular books </h1>
+  <v-layout justify-center row fill-height>
     <div class="books">
       <img src="@/assets/book.jpg" class="image"/>
       <h2> Little Fires Everywhere</h2>
       <h4> By: Random Author </h4>
+      <v-btn> Buy it on amazon </v-btn>
     </div>
 
-    <div class="books">
+     <div class="books">
       <img src="@/assets/book.jpg" class="image"/>
       <h2> Educated a memoir</h2>
       <h4> By: Random Author </h4>
+      <v-btn> Buy it on amazon </v-btn>
     </div>
 
     <div class="books">
       <img src="@/assets/book.jpg" class="image" alt="Book"/>
       <h2> The hate you give</h2>
       <h4> By: Random Author </h4>
-    </div>
+      <v-btn> Buy it on amazon </v-btn>
+      </div>
 
     <div class="books">
       <img src="@/assets/book.jpg" class="image"/>
       <h2> The hate you give</h2>
       <h4> By: Random Author </h4>
+      <v-btn> Buy it on amazon </v-btn>
     </div>
 
-    <div class="books">
+     <div class="books">
       <img src="@/assets/book.jpg" class="image"/>
       <h2> The hate you give</h2>
       <h4> By: Random Author </h4>
+      <v-btn> Buy it on amazon </v-btn>
     </div>
-    </div>
-   </div>
+
+  </v-layout>
   </div>
 
 </template>
@@ -88,7 +89,7 @@ export default {
 .flexbox{
   display: flex;
   overflow: scroll;
-  align-content: center;
+  /* align-content: center; */
   margin: 10px;
 }
 .spacing{
@@ -97,11 +98,13 @@ export default {
 }
 .books {
   /* box-sizing: border-box; */
-  width: 100%;
-  padding: 20px;
+  /* width: 100%; */
+  padding: 15px;
   margin: 10px;
-  width: 20%;
+  /* width: 20%; */
 }
+
+/* Hoover animations when mouse is over books */
 .books:hover {
   padding:0;
   -webkit-transition: all width 0.05s;
@@ -110,10 +113,10 @@ export default {
   -o-transition: all width 0.05s;
   transition: all 0.05s;
 }
-
 .books:hover img {
 }
 
+/* Styling for the image sizes  */
 .image{
 width: 200px;
 height: 300px;
