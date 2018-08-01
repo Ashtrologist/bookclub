@@ -77,7 +77,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      image: 'http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png'
+      // image: 'http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png'
     }
   }
 }
@@ -86,9 +86,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .circular{
-  width: 300px;
+
   min-height: 250px;
-  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=954560871844da528c60343dc344ccbf&auto=format&fit=crop&w=1950&q=80");
+  
 }
 .flexbox{
   display: flex;
