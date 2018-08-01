@@ -9,23 +9,23 @@
       <img src="@/assets/book.jpg" alt="Sondos Hassan" height="200px" width="200px"/>
       <h3> Sondos Hassan </h3>
     </div>
-    <v-container align-center>
-    <div>
+    <v-layout justify-center row>
+    <div class="team">
       <h2> Vice President </h2>
       <img src="@/assets/book.jpg" alt="Sondos Hassan" height="200px" width="200px"/>
       <h3> Sondos Hassan </h3>
     </div>
-    <div>
+    <div class="team">
       <h2> Secretary </h2>
       <img src="@/assets/book.jpg" alt="Sondos Hassan" height="200px" width="200px"/>
       <h3> Sondos Hassan </h3>
     </div>
-    <div>
+    <div class="team">
       <h2> Treasurer </h2>
       <img src="@/assets/book.jpg" alt="Sondos Hassan" height="200px" width="200px"/>
       <h3> Sondos Hassan </h3>
     </div>
-    </v-container>
+    </v-layout>
   </div>
 
   </div>
@@ -38,5 +38,9 @@ export default {
 </script>
 
 <style scoped>
+.team{
+  padding: 10px;
+  margin: 15px
+}
 
 </style>

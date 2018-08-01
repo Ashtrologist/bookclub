@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="header">
+  <div justify-center class="circular">
     <h1> Welcome to the Dead Poets Society </h1>
   </div>
   <div>
@@ -51,7 +51,7 @@
       <h2> The hate you give</h2>
       <h4> By: Random Author </h4>
       <v-btn> Buy it on amazon </v-btn>
-      </div>
+    </div>
 
     <div class="books">
       <img src="@/assets/book.jpg" class="image"/>
@@ -66,9 +66,8 @@
       <h4> By: Random Author </h4>
       <v-btn> Buy it on amazon </v-btn>
     </div>
-
   </v-layout>
-  </div>
+</div>
 
 </template>
 
@@ -78,6 +77,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+      image: 'http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png'
     }
   }
 }
@@ -85,7 +85,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.circular{
+  width: 300px;
+  min-height: 250px;
+  background-size: cover;
+}
 .flexbox{
   display: flex;
   overflow: scroll;
@@ -107,11 +111,11 @@ export default {
 /* Hoover animations when mouse is over books */
 .books:hover {
   padding:0;
-  -webkit-transition: all width 0.05s;
-  -moz-transition: all width 0.05s;
-  -ms-transition: all width 0.05s;
-  -o-transition: all width 0.05s;
-  transition: all 0.05s;
+  -webkit-transition: all width 0.3s;
+  -moz-transition: all width 0.3s;
+  -ms-transition: all width 0.3s;
+  -o-transition: all width 0.3s;
+  transition: all 0.3s ease;
 }
 .books:hover img {
 }
