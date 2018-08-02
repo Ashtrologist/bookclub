@@ -52,6 +52,7 @@ export default {
 .header{
   text-transform: uppercase;
   font-size: 60px;
+  font-weight: bold;
   align-content: center;
   color: white;
   padding-top: 50px;

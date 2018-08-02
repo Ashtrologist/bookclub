@@ -4,7 +4,7 @@
     <h1 class="header">Our weekly events will be posted here</h1>
   </div>
     <br>
-    <iframe src="https://calendar.google.com/calendar/embed?src=usfdeadpoets%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="900" height="700" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?src=usfdeadpoets%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
   </div>
 
 </template>
@@ -24,7 +24,7 @@ export default {
   text-transform: uppercase;
   font-size: 60px;
   align-content: center;
-  /* color: white; */
+  font-weight: bold;
   padding-top: 50px;
 }
 
