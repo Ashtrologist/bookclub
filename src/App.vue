@@ -37,4 +37,11 @@ export default {
 .container{
   padding: 0!important;
 }
+.vue-typer .left{
+  float: none !important;
+}
+
+.vue-typer .typed{
+  color: white;
+}
 </style>
