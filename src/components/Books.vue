@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1> Books are for kids </h1>
+    <h1> Books are for kids and everyone else</h1>
   </div>
 </template>
 <script>
