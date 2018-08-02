@@ -18,7 +18,7 @@
     </div>
   </div>
   <div class="about">
-    <h2> About Us </h2>
+    <h2 class="subheader"> About Us </h2>
     <p>
       The Dead Poets Society Book Club get’s its name from the timeless movie starring Robin Williams, where he plays the role of an influential teacher inspiring his students to surpass the seemingly mundane task of “reading” literature, rather feeling it, allowing its words to sink into the malleable minds of his students. This Book club serves the same purpose. To allow the flow of ideas, thoughts, and discussions from timeless works to dance between the minds of our members. Meetings will be intended for great minds to come together and lay out their thoughts, educated opinions, and most of all openness to more than one interpretation to varying ideas. every book is a world and every person is a world that has the potential to enrich your own world.” ~Shaykh Amr
     </p>
