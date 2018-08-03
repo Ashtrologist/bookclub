@@ -19,7 +19,7 @@
   </div>
   <div class="about">
     <h2 class="subheader"> About Us </h2>
-    <p>
+    <p class="aboutText">
       The Dead Poets Society Book Club get’s its name from the timeless movie starring Robin Williams, where he plays the role of an influential teacher inspiring his students to surpass the seemingly mundane task of “reading” literature, rather feeling it, allowing its words to sink into the malleable minds of his students. This Book club serves the same purpose. To allow the flow of ideas, thoughts, and discussions from timeless works to dance between the minds of our members. Meetings will be intended for great minds to come together and lay out their thoughts, educated opinions, and most of all openness to more than one interpretation to varying ideas. every book is a world and every person is a world that has the potential to enrich your own world.” ~Shaykh Amr
     </p>
   </div>
@@ -134,11 +134,10 @@ export default {
 }
 
 .header{
-  padding-top: 50px;
+  padding-top: 100px;
   justify-content: center;
   align-content: center;
   text-align: center;
-
 }
 
 /* These styles refer to the about us section of the page */
@@ -147,26 +146,32 @@ export default {
   background-color: #E0E0E0;
   min-height: 350px;
 }
+.aboutText{
+  font-size: 1.8em;
+  text-align: justify;
+}
 
 /* This is for the sub headings */
 .subheader{
   text-transform: uppercase;
-  padding: 15px;
-  font-size: 30px;
+  padding-bottom: 30px;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+
 }
 
 /* These styles refer to the join us section of the page */
 .club{
   overflow: auto;
   background-color: #f7f2ee;
-  padding: 15px;
+  padding: 45px 0 30px;
 }
 
 /* These styles refer to the popular books section of the page */
 .popular{
   overflow: auto;
   background-color: #E0E0E0;
-  padding: 15px;
+  padding: 45px 0 30px;
 }
 .spacing{
   padding: 20px;
@@ -191,8 +196,8 @@ export default {
 
 /* Styling for the image sizes  */
 .image{
-width: 200px;
-height: 300px;
+width: 180px;
+height: 275px;
 }
 
 </style>
