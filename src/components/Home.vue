@@ -50,6 +50,7 @@
       <v-btn
         dark
         href="https://www.amazon.com/Inheritance-Genes-Change-Lives-Lives/dp/1455549436/ref=sr_1_1?s=books&ie=UTF8&qid=1533169607&sr=1-1&keywords=inheritance+sharon+moalem"
+        target="_blank"
       >
        Buy it on amazon
       </v-btn>
@@ -61,6 +62,7 @@
       <v-btn
         dark
         href="https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934/ref=sr_1_1?s=books&ie=UTF8&qid=1533170874&sr=1-1&keywords=1984+by+george+orwell&smid=ATVPDKIKX0DER"
+        target="_blank"
       >
        Buy it on amazon
        </v-btn>
@@ -72,6 +74,7 @@
       <v-btn
         dark
         href="https://www.amazon.com/Montaigne-Essays-Michel/dp/014017897X/ref=sr_1_2?s=books&ie=UTF8&qid=1533170750&sr=1-2&keywords=essays+michel+de+montaigne"
+        target="_blank"
       >
        Buy it on amazon
      </v-btn>
@@ -83,6 +86,7 @@
       <v-btn
         dark
         href="https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/0756404746/ref=sr_1_1?s=books&ie=UTF8&qid=1533168766&sr=1-1&keywords=the+name+of+the+wind"
+        target="_blank"
       >
       Buy it on amazon
       </v-btn>
@@ -94,6 +98,7 @@
       <v-btn
         dark
         href="https://www.amazon.com/Kybalion-Centenary-Three-Initiates/dp/0143131680/ref=sr_1_2?ie=UTF8&qid=1533168071&sr=8-2&keywords=the+kybalion"
+        target="_blank"
       >
         Buy it on amazon
       </v-btn>
