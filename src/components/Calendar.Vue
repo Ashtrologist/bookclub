@@ -11,13 +11,21 @@
 <script>
 
 export default {
+  name: 'Calendar',
+  data () {
+    return {
+      count: 0
+    }
+  }
 }
+
 </script>
 
 <style scoped>
 .banner{
   min-height: 350px;
   max-height: 350px;
+  background-size: cover;
   background-image: url("https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab3ab3da37d9c3cff72666376c089e3c&auto=format&fit=crop&w=1648&q=80");
 }
 .header{

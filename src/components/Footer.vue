@@ -2,7 +2,7 @@
   <v-footer relative height="auto" class="footer">
     <v-layout justify-center row wrap>
       <v-cardv-card-text class="hidden-sm-and-down">
-        <v-btn dark flat to="HelloWorld">HOME</v-btn>
+        <v-btn dark flat to="Home">HOME</v-btn>
         <v-btn dark flat to="Books">BOOKS</v-btn>
         <v-btn dark flat to="Calendar">CALENDAR</v-btn>
         <v-btn dark flat to="About">ABOUT US</v-btn>

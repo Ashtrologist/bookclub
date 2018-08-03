@@ -36,7 +36,14 @@
 <script>
 
 export default {
+  name: 'About',
+  data () {
+    return {
+      count: 0
+    }
+  }
 }
+
 </script>
 
 <style scoped>
@@ -46,6 +53,7 @@ export default {
 }
 .banner{
   min-height: 350px;
+  background-size: cover;
   max-height: 350px;
   background-image: url("https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=615eb020ee1d598fdd9b5c40ede9eccf&auto=format&fit=crop&w=1650&q=80");
 }

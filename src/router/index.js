@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Home from '@/components/Home'
 import About from '@/components/About'
 import Calendar from '@/components/Calendar'
 import Books from '@/components/Books'
@@ -10,9 +10,9 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/HelloWorld',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/Home',
+      name: 'Home',
+      component: Home
     },
     {
       path: '/About',

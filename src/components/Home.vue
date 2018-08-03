@@ -105,8 +105,11 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   data () {
+    return {
+      count: 0
+    }
   }
 }
 </script>
@@ -117,6 +120,7 @@ export default {
 /* These styles refer to the header portion of the page */
 .banner{
   min-height: 350px;
+  background-size: cover;
   max-height: 350px;
   background-image: url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=954560871844da528c60343dc344ccbf&auto=format&fit=crop&w=1950&q=80");
 }
@@ -124,7 +128,7 @@ export default {
 /* CSS for the typing header */
 .vue-typer{
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 3.7em;
   color: white;
   font-weight: bold;
 }

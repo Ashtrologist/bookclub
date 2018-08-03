@@ -6,7 +6,14 @@
 <script>
 
 export default {
+  name: 'Books',
+  data () {
+    return {
+      count: 0
+    }
+  }
 }
+
 </script>
 
 <style scoped>
