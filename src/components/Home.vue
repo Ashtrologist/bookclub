@@ -155,8 +155,12 @@ export default {
   min-height: 350px;
 }
 .aboutText{
-  font-size: 1.8em;
+  font-size: 1.35em;
   text-align: justify;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+
 }
 .quote{
   font-size: 1.8em;

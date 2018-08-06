@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="design">
   <div class="banner">
     <h1 class="header">Our weekly events will be posted here</h1>
   </div>
@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style scoped>
+.design{
+  background-color: #FDD835;
+}
 .banner{
   min-height: 350px;
   max-height: 350px;
