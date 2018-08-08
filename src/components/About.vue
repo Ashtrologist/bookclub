@@ -39,6 +39,7 @@
     </div>
     </div>
     </v-layout>
+
     <v-layout justify-center row>
     <div>
     <h2>Secretary</h2>
@@ -56,8 +57,28 @@
       </div>
     </div>
     </div>
+
     <div>
     <h2>Treasurer</h2>
+    <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+          <img src="@/assets/mateo.jpg" height="300px" width="225px" alt="Sondos Hassan">
+          <h3>Mateo Knight</h3>
+        </div>
+        <div class="back">
+          <img class="opacity" src="@/assets/mateo.jpg" height="300px" width="225px" alt="Sondos Hassan">
+          <p class="major">Health Science</p>
+          <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </v-layout>
+
+    <v-layout justify-center row>
+    <div>
+    <h2>Social Chair</h2>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
@@ -67,6 +88,23 @@
         <div class="back">
           <img class="opacity" src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
           <p class="major">Economics</p>
+          <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div>
+    <h2>Event Coordinator</h2>
+    <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+          <img src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
+          <h3>Sami Bazzi</h3>
+        </div>
+        <div class="back">
+          <img class="opacity" src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
+          <p class="major">Pre-Dental</p>
           <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
         </div>
       </div>
