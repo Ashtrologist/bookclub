@@ -160,7 +160,7 @@ export default {
 }
 .quote{
   font-size: 1.8em;
-  font-weight: 501;
+  font-weight: bold;
   font-style: italic;
   justify-content: center;
   align-content: center;
