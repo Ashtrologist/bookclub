@@ -11,11 +11,11 @@
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
-          <img src="@/assets/sondos.jpeg" height="300px" width="225px" alt="Sondos Hassan">
+          <img src="@/assets/sondos.jpeg" height="auto" width="250px" alt="Sondos Hassan">
           <h3>Sondos Hassan</h3>
         </div>
         <div class="back">
-          <img class="opacity" src="@/assets/sondos.jpeg" height="300px" width="225px" alt="Sondos Hassan">
+          <img class="opacity" src="@/assets/sondos.jpeg" height="auto" width="250px" alt="Sondos Hassan">
           <p class="major">Health Science</p>
           <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
         </div>
@@ -27,13 +27,13 @@
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
-          <img src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <h3>Ashton Rodriquez</h3>
+          <img src="@/assets/obada.jpeg" height="300px" width="225px" alt="Sondos Hassan">
+          <h3>Obada Kattih</h3>
         </div>
         <div class="back">
-          <img class="opacity" src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <p class="major">Computer Science</p>
-          <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+          <img class="opacity" src="@/assets/obada.jpeg" height="300px" width="225px" alt="Sondos Hassan">
+          <p class="major">Put Major Here</p>
+          <p>“Often we pass beside happiness without seeing it, without looking at it, or even if we have seen and looked at it, without recognizing it.”<br>-Alexandre Dumas"</p>
         </div>
       </div>
     </div>
@@ -82,13 +82,13 @@
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
-          <img src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <h3>Harishawn Ramrup</h3>
+          <img src="@/assets/jazlyn.jpg" height="300px" width="225px" alt="Sondos Hassan">
+          <h3>Social Chair</h3>
         </div>
         <div class="back">
-          <img class="opacity" src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <p class="major">Economics</p>
-          <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+          <img class="opacity" src="@/assets/jazlyn.jpg" height="300px" width="225px" alt="Sondos Hassan">
+          <p class="major">Health Science</p>
+          <p>"It does not matter how slowly you go as long as you do not stop.<br>-Confucius</p>
         </div>
       </div>
     </div>
@@ -200,5 +200,11 @@ filter:alpha(opacity=50); /* For IE8 and earlier */
 .major {
 font-style: italic;
 font-weight: bold;
+}
+img {
+    width:250px; /* you can use % */
+    height: auto;
+    /* position: absolute; */
+    /* clip: rect(0px,200px,200px,0px); */
 }
 </style>
