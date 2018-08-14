@@ -1,13 +1,14 @@
 <template>
 <div class="about">
   <div class="banner">
-    <h1 class="header">Meet the team</h1>
+    <h1 class="header">About Us</h1>
   </div>
   <br>
   <div class="about">
+    <h2>Meet the Team</h2>
     <v-layout justify-center row>
     <div>
-    <h2>President</h2>
+    <h3>President</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
@@ -23,7 +24,7 @@
     </div>
     </div>
     <div>
-    <h2>Vice President</h2>
+    <h3>Vice President</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
@@ -32,17 +33,15 @@
         </div>
         <div class="back">
           <img class="opacity" src="@/assets/obada.jpeg" height="300px" width="225px" alt="Sondos Hassan">
-          <p class="major">Put Major Here</p>
+          <p class="major">Biomedical Science</p>
           <p>“Often we pass beside happiness without seeing it, without looking at it, or even if we have seen and looked at it, without recognizing it.”<br>-Alexandre Dumas"</p>
         </div>
       </div>
     </div>
     </div>
-    </v-layout>
 
-    <v-layout justify-center row>
     <div>
-    <h2>Secretary</h2>
+    <h3>Secretary</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
@@ -57,9 +56,11 @@
       </div>
     </div>
     </div>
+    </v-layout>
 
+    <v-layout justify-center row class="row_two">
     <div>
-    <h2>Treasurer</h2>
+    <h3>Treasurer</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
@@ -74,11 +75,9 @@
       </div>
     </div>
     </div>
-    </v-layout>
 
-    <v-layout justify-center row>
     <div>
-    <h2>Social Chair</h2>
+    <h3>Social Chair</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
@@ -95,7 +94,7 @@
     </div>
 
     <div>
-    <h2>Event Coordinator</h2>
+    <h3>Event Coordinator</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
@@ -110,7 +109,42 @@
       </div>
     </div>
     </div>
-    </v-layout>
+    <div>
+    <h3>Discussion Mediator</h3>
+    <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+          <img src="@/assets/daniel.jpeg" alt="Daniel Usma">
+          <h3>Daniel Usma</h3>
+        </div>
+        <div class="back">
+          <img class="opacity" src="@/assets/daniel.jpeg" alt="Daniel Usma">
+          <p class="major">Biomedical Science</p>
+          <p>"What matters most are the simple pleasures so abundant that we can all enjoy them...Happiness doesn't lie in the objects we gather around us. To find it, all we need to do is open our eyes.”</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </v-layout>
+
+  <section class="contact">
+    <h2>
+      Contact Us
+    </h2>
+    <h3>We're Here to Help!</h3>
+    <ul>
+      <li>
+        tele: 813.123.4567
+      </li>
+      <li>
+        <p>
+          <a href="mailto:usfdeadpoets@gmail.com?Subject=Interested%20in%20Joining" target="_top">usfdeadpoets@gmail.com</a>
+        </p>
+      </li>
+    </ul>
+
+  </section>
+
 </div>
 </div>
 </template>
@@ -146,7 +180,7 @@ export default {
   padding-top: 50px;
 }
 .about{
-  background-color: #E0E0E0;
+  background-color: #fff;
   min-height: 350px;
 }
 
@@ -204,7 +238,27 @@ font-weight: bold;
 img {
     width:250px; /* you can use % */
     height: auto;
-    /* position: absolute; */
+    /* position: absolute;
+    left: 25%;
+    top:10%; */
     /* clip: rect(0px,200px,200px,0px); */
+}
+h2 {
+  font-size: 2em;
+}
+.contact {
+  padding: 2em;
+  line-height: 2em;
+  font-size: 1em;
+  width: 100%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+ul li {
+  list-style-type: none;
+}
+.row_two {
+  padding: 0 0 3em 0;
+  margin:0 0 2em 0;
 }
 </style>
