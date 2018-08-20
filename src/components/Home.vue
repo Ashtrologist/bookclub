@@ -176,14 +176,14 @@ export default {
   padding-bottom: 30px;
   font-size: 1.75rem;
   letter-spacing: 1px;
-
 }
 
 /* These styles refer to the join us section of the page */
 .club{
   overflow: auto;
-  background-color: #f7f2ee;
+  background-color: #007953;
   padding: 45px 0 30px;
+  color: white;
 }
 
 /* These styles refer to the popular books section of the page */

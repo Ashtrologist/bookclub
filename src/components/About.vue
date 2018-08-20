@@ -3,10 +3,15 @@
   <div class="banner">
     <h1 class="header">About Us</h1>
   </div>
-  <br>
-  <div class="about">
+  <section class="paragraph">
+  <p>
+    We are a group of college students with differing backgrounds coming together for a shared appreciation of great thoughts, ideas, and beliefs. Our collection of varied experiences aid in our ability to come together and discuss thought-provoking notions that help us connect with the world around us. That is why we are here…to connect, to understand, and most importantly, to think!
+  </p>
+</section>
+  <div class="team">
     <h2>Meet the Team</h2>
-    <v-layout justify-center row>
+    <p>hover over each e-board member to find out more about them</p>
+    <v-layout justify-center row class="frame">
     <div>
     <h3>President</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
@@ -18,7 +23,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/sondos.jpeg" height="auto" width="250px" alt="Sondos Hassan">
           <p class="major">Health Science</p>
-          <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+          <p>"Think of yoursself as dead. You have lived your life. Now take what's left and live it properly."<br>- Marcus Aurelius</p>
         </div>
       </div>
     </div>
@@ -39,26 +44,25 @@
       </div>
     </div>
     </div>
+    </v-layout>
 
-    <div>
+    <v-layout justify-center row class="frame">
+     <div>
     <h3>Secretary</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
-          <img src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <h3>Jesus Cobas, Jr.</h3>
+          <img src="@/assets/hikaru.jpg" alt="Sondos Hassan">
+          <h3>Hikaru Kurasawa</h3>
         </div>
         <div class="back">
-          <img class="opacity" src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <p class="major">Mechanical Engineering</p>
-          <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+          <img class="opacity" src="@/assets/hikaru.jpg" alt="Sondos Hassan">
+          <p class="major">Health Science</p>
+          <p>"Ambition should be made of sterner stuff “<br>- William Shakespeare"</p>
         </div>
       </div>
     </div>
     </div>
-    </v-layout>
-
-    <v-layout justify-center row class="row_two">
     <div>
     <h3>Treasurer</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
@@ -70,7 +74,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/mateo.jpg" height="300px" width="225px" alt="Sondos Hassan">
           <p class="major">Health Science</p>
-          <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
+          <p>"We see the world, not as it is, but as we are--or, as we are conditioned to see it."</p>
         </div>
       </div>
     </div>
@@ -92,24 +96,9 @@
       </div>
     </div>
     </div>
-
-    <div>
-    <h3>Event Coordinator</h3>
-    <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
-      <div class="flipper">
-        <div class="front">
-          <img src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <h3>Sami Bazzi</h3>
-        </div>
-        <div class="back">
-          <img class="opacity" src="@/assets/book.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <p class="major">Pre-Dental</p>
-          <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."</p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div>
+  </v-layout>
+  <v-layout justify-center row class="frame">
+  <div>
     <h3>Discussion Mediator</h3>
     <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
       <div class="flipper">
@@ -125,27 +114,39 @@
       </div>
     </div>
     </div>
+    <div>
+    <h3>Discussion Mediator</h3>
+    <div class="flip-container" ontoughstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+          <img src="@/assets/logan.jpg" alt="Logan Salzman">
+          <h3>Logan Salzman</h3>
+        </div>
+        <div class="back">
+          <img class="opacity" src="@/assets/logan.jpg" alt="Logan Salzman">
+          <p class="major">Health Science</p>
+          <p>"I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.”</p>
+        </div>
+      </div>
+    </div>
+    </div>
   </v-layout>
-
-  <section class="contact">
-    <h2>
-      Contact Us
-    </h2>
-    <h3>We're Here to Help!</h3>
-    <ul>
-      <li>
-        tele: 813.123.4567
-      </li>
-      <li>
-        <p>
-          <a href="mailto:usfdeadpoets@gmail.com?Subject=Interested%20in%20Joining" target="_top">usfdeadpoets@gmail.com</a>
-        </p>
-      </li>
-    </ul>
-
-  </section>
-
 </div>
+<section>
+    <!-- <h2 class="contact">
+      Contact Us
+    </h2> -->
+  <div class="contact">
+    <h3>We're Here to Help!</h3>
+      <p style="text-align: center;">
+        tele: 813.123.4567
+      <br>
+        if you have any questions on how to get involve, please e-mail us at:<br>
+        <a href="mailto:usfdeadpoets@gmail.com?Subject=Interested%20in%20Joining" target="_top">usfdeadpoets@gmail.com</a>
+        <br>we are looking forward to hearing from you!<br>Go Bulls!
+      </p>
+  </div>
+</section>
 </div>
 </template>
 
@@ -161,9 +162,11 @@ export default {
 </script>
 
 <style scoped>
-.team{
-  padding: 10px;
-  margin: 15px
+.team {
+  max-width: 75%;
+  margin: 0 auto;
+  background: #E0E0E0;
+  /* box-shadow: 0px 2px 8px gray; */
 }
 .banner{
   min-height: 350px;
@@ -180,8 +183,12 @@ export default {
   padding-top: 50px;
 }
 .about{
-  background-color: #fff;
-  min-height: 350px;
+  background-color: #E0E0E0;;
+  box-shadow: 0px 2px 8px gray;
+  /* padding-bottom: 0px;
+  min-height: 350px; */
+  /* width:75%;
+  margin: 0 auto; */
 }
 
 /* entire container, keeps perspective */
@@ -238,6 +245,8 @@ font-weight: bold;
 img {
     width:250px; /* you can use % */
     height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
     /* position: absolute;
     left: 25%;
     top:10%; */
@@ -245,20 +254,63 @@ img {
 }
 h2 {
   font-size: 2em;
+  text-align: left;
+  color: black;
+  padding-left: .5em;
+  padding-top: 2em;
+  padding-bottom: .5em;
 }
-.contact {
-  padding: 2em;
+p {
+  font-size: 1em;
+  text-align: left;
+  padding-left: 1em;
+  padding-bottom: .5em;
+}
+.paragraph {
+  padding: 4em;
   line-height: 2em;
   font-size: 1em;
   width: 100%;
   margin: 0 auto;
-  background-color: whitesmoke;
+  background-color: #007953;
+  color: white;
+}
+.contact {
+  background-color: #007953;
+  color: white;
+  padding: 1.5em;
+  padding-bottom: .5em;
+  line-height: 2em;
+  font-size: 1em;
+  width: 100%;
+  margin: 50px auto 0px auto;
+  background-color: #36454f;
+  font-size:20px;
 }
 ul li {
   list-style-type: none;
 }
 .row_two {
-  padding: 0 0 3em 0;
-  margin:0 0 2em 0;
+  padding: 0 0 0em 0;
+  margin:0 0 0em 0;
+  max-width: 75%;
+  margin: 0 auto;
 }
+.frame {
+  position: -webkit-static; /* Safari */
+  position: static;
+  top: 2em;
+  background-color: #007953;
+  padding-top:1em;
+  /* border: 1px solid gray; */
+  /* box-shadow: 0px 2px 4px gray; */
+  COLOR: WHITE;
+}
+a {
+  color: white;
+}
+h3 {
+  font-size: 1.5em
+}
+
 </style>
