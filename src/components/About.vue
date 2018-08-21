@@ -8,9 +8,9 @@
     We are a group of college students with differing backgrounds coming together for a shared appreciation of great thoughts, ideas, and beliefs. Our collection of varied experiences aid in our ability to come together and discuss thought-provoking notions that help us connect with the world around us. That is why we are here…to connect, to understand, and most importantly, to think!
   </p>
 </section>
+    <h2>Meet the Bookworms</h2>
+    <p>Hover over each e-board member to find out more about them</p>
   <div class="team">
-    <h2>Meet the Team</h2>
-    <p>hover over each e-board member to find out more about them</p>
     <v-layout justify-center row class="frame">
     <div>
     <h3>President</h3>
@@ -23,7 +23,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/sondos.jpeg" height="auto" width="250px" alt="Sondos Hassan">
           <p class="major">Health Science</p>
-          <p>"Think of yoursself as dead. You have lived your life. Now take what's left and live it properly."<br>- Marcus Aurelius</p>
+          <p class="quote">"Think of yoursself as dead. You have lived your life. Now take what's left and live it properly."<br>- Marcus Aurelius</p>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/obada.jpeg" height="300px" width="225px" alt="Sondos Hassan">
           <p class="major">Biomedical Science</p>
-          <p>“Often we pass beside happiness without seeing it, without looking at it, or even if we have seen and looked at it, without recognizing it.”<br>-Alexandre Dumas"</p>
+          <p class="quote">“Often we pass beside happiness without seeing it, without looking at it, or even if we have seen and looked at it, without recognizing it.”<br>-Alexandre Dumas"</p>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/hikaru.jpg" alt="Sondos Hassan">
           <p class="major">Health Science</p>
-          <p>"Ambition should be made of sterner stuff “<br>- William Shakespeare"</p>
+          <p class="quote">"Ambition should be made of sterner stuff “<br>- William Shakespeare"</p>
         </div>
       </div>
     </div>
@@ -74,7 +74,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/mateo.jpg" height="300px" width="225px" alt="Sondos Hassan">
           <p class="major">Health Science</p>
-          <p>"We see the world, not as it is, but as we are--or, as we are conditioned to see it."</p>
+          <p class="quote">"We see the world, not as it is, but as we are--or, as we are conditioned to see it."</p>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/jazlyn.jpg" height="300px" width="225px" alt="Sondos Hassan">
           <p class="major">Health Science</p>
-          <p>"It does not matter how slowly you go as long as you do not stop.<br>-Confucius</p>
+          <p class="quote">"It does not matter how slowly you go as long as you do not stop.<br>-Confucius</p>
         </div>
       </div>
     </div>
@@ -109,7 +109,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/daniel.jpeg" alt="Daniel Usma">
           <p class="major">Biomedical Science</p>
-          <p>"What matters most are the simple pleasures so abundant that we can all enjoy them...Happiness doesn't lie in the objects we gather around us. To find it, all we need to do is open our eyes.”</p>
+          <p class="quote">"What matters most are the simple pleasures so abundant that we can all enjoy them...Happiness doesn't lie in the objects we gather around us. To find it, all we need to do is open our eyes.”</p>
         </div>
       </div>
     </div>
@@ -125,7 +125,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/logan.jpg" alt="Logan Salzman">
           <p class="major">Health Science</p>
-          <p>"I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.”</p>
+          <p class="quote">"I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.”</p>
         </div>
       </div>
     </div>
@@ -139,11 +139,11 @@
   <div class="contact">
     <h3>We're Here to Help!</h3>
       <p style="text-align: center;">
-        tele: 813.123.4567
+        Telephome: 813.123.4567
       <br>
-        if you have any questions on how to get involve, please e-mail us at:<br>
+        If you have any questions on how to become involved, please e-mail us at:<br>
         <a href="mailto:usfdeadpoets@gmail.com?Subject=Interested%20in%20Joining" target="_top">usfdeadpoets@gmail.com</a>
-        <br>we are looking forward to hearing from you!<br>Go Bulls!
+        <br>We are looking forward to hearing from you!<br>Go Bulls!
       </p>
   </div>
 </section>
@@ -165,8 +165,7 @@ export default {
 .team {
   max-width: 75%;
   margin: 0 auto;
-  background: #E0E0E0;
-  /* box-shadow: 0px 2px 8px gray; */
+  background-color: #007953;
 }
 .banner{
   min-height: 350px;
@@ -241,6 +240,10 @@ filter:alpha(opacity=50); /* For IE8 and earlier */
 .major {
 font-style: italic;
 font-weight: bold;
+text-align: center;
+}
+.quote {
+  text-align: justify;
 }
 img {
     width:250px; /* you can use % */
@@ -261,7 +264,7 @@ h2 {
   padding-bottom: .5em;
 }
 p {
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: left;
   padding-left: 1em;
   padding-bottom: .5em;
@@ -300,11 +303,12 @@ ul li {
   position: -webkit-static; /* Safari */
   position: static;
   top: 2em;
-  background-color: #007953;
+  /* background-color: #007953; */
   padding-top:1em;
   /* border: 1px solid gray; */
   /* box-shadow: 0px 2px 4px gray; */
   COLOR: WHITE;
+  overflow: scroll;
 }
 a {
   color: white;
