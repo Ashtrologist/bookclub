@@ -23,7 +23,7 @@
         <div class="back">
           <img class="opacity" src="@/assets/sondos.jpeg" height="auto" width="250px" alt="Sondos Hassan">
           <p class="major">Health Science</p>
-          <p class="quote">"Think of yoursself as dead. You have lived your life. Now take what's left and live it properly."<br>- Marcus Aurelius</p>
+          <p class="quote">"Think of yourself as dead. You have lived your life. Now take what's left and live it properly."<br>- Marcus Aurelius</p>
         </div>
       </div>
     </div>
@@ -86,7 +86,7 @@
       <div class="flipper">
         <div class="front">
           <img src="@/assets/jazlyn.jpg" height="300px" width="225px" alt="Sondos Hassan">
-          <h3>Social Chair</h3>
+          <h3>Jazlyn Vega</h3>
         </div>
         <div class="back">
           <img class="opacity" src="@/assets/jazlyn.jpg" height="300px" width="225px" alt="Sondos Hassan">
@@ -317,4 +317,12 @@ h3 {
   font-size: 1.5em
 }
 
+@media (max-width: 500px) {
+  .team {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #007953;
+    overflow: scroll;
+  }
+}
 </style>
